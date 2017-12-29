@@ -1,0 +1,29 @@
+{
+    "chart": {
+        "caption": "Electronics Selling",
+        "subCaption": "Top 5 stores in last month by revenue",
+        "numberprefix": "Rs.(Crore) ",
+        "theme": "fint"
+    },
+    "data": [{
+            "label": "Redmi",
+            "value": "95"
+        },
+        {
+            "label": "IPhone",
+            "value": "90"
+        },
+        {
+            "label": "Motorola",
+            "value": "76"
+        },
+        {
+            "label": "Samsung",
+            "value": "67"
+        },
+        {
+            "label": "vivo",
+            "value": "55"
+        }
+    ]
+}
