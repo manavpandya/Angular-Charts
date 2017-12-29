@@ -1,0 +1,18 @@
+<mat-toolbar color="accent">
+    <span>Manav Pandya - C#Corner</span>
+    <span class="demo-toolbar"></span>
+    <button mat-button href="www.asp-dotnet-mvc-tutorials.blogspot.in">Go To My Blog</button>
+    <button mat-button [matMenuTriggerFor]="menu">Select Charts From Below Menu</button>
+    <mat-menu #menu="matMenu">
+        <button [routerLink]="['/Bar']" mat-menu-item>Bar Chart</button>
+        <button [routerLink]="['/Pie']" mat-menu-item>Pie Chart</button>
+        <button [routerLink]="['/Column']" mat-menu-item>Column Chart</button>
+        <button [routerLink]="['/Line']" mat-menu-item>Line Chart</button>
+        <button [routerLink]="['/Doughunt']" mat-menu-item>DougHunt Chart</button>
+        <button [routerLink]="['/Bubble']" mat-menu-item>Bubble Chart</button>
+        <button [routerLink]="['/Mixed']" mat-menu-item>Mixed Chart</button>
+    </mat-menu>
+</mat-toolbar>
+<div>
+    <router-outlet></router-outlet>
+</div>
